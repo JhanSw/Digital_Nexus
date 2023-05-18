@@ -3,6 +3,7 @@ package com.example.demo.entity;
 import java.io.Serializable;
 import java.util.Set;
 
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -33,20 +34,25 @@ public class User implements Serializable{
 	@Column
 	
 	private String firstName;
+	
 	@Column
 	
 	private String lastName;
+	
 	@Column
 	
 	private String email;
+	
 	@Column
 	
 	private String username;
+	
 	@Column
 	
 	private String password;
 	
 	@Transient
+	
 	private String confirmPassword;
 	
 	
